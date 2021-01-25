@@ -1,0 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+}
+.featured h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    color: slateblue;
+}

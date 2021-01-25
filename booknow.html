@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Website</title>
+    <link rel ="stylesheet" href="./CSS/clickhere.css">
+</head>
+ <body style ="text-align: center; background: url(./Images/Lotus-Temple.jpg); background-size: cover; ">
+
+    <header>
+        <section class ="navsection">
+            <div class ="logo">
+                <h1></h1>
+
+                </div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./services.html">Services</a> 
+                <a href="./gallery.html">Tour Packages</a>
+            </nav>
+        </section>
+    <div class ="contact-form">
+        <h1></h1>
+        <form action="booknow.py" method="POST">
+            <h1>Book Now!</h1> <br>
+            <b> Full Name  : </b>
+            <input type ="text" name ="FullName"placeholder=""><br></br>
+            <b> Enter Email   :</b>
+            <input type="email" name="Email"placeholder=""><br></br>
+            <b>Contact No   :</b>
+            <input type="text" name="Contact"placeholder=""><br></br>
+            <b>Number of Adults: </b>
+            <input type="number" name="Adults" placeholder =""><br></br>
+            <b>Number of Childrens: </b>
+            <input type="number" name ="Childrens" placeholder =""><br></br>
+            <b>Food: </b>
+            <input type="radio" name="Yes" >Yes
+            <input type="radio" name="No" >No   <br></br>
+            <b>Travelling</b> <br> <br>
+            <input type="radio" name="Bus" >Bus
+            <input type="radio" name="Train" >Train
+            <input type="radio" name="Airplanes" >Airplanes <br></br>
+            <b>Date: </b>
+            <input type="date" name ="Date"> <br></br>
+            <input type="submit" value="Confirm"><br>
+        </form>
+    
+    </body>
+    </html>
